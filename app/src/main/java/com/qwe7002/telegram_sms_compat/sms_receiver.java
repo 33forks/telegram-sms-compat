@@ -94,7 +94,7 @@ public class sms_receiver extends BroadcastReceiver {
                             .replace("<", "&lt;")
                             .replace(">", "&gt;")
                             .replace("&", "&amp;")
-                            .replace(verification, "<code>" + verification + "</code>");
+                            .replace(verification, " <code>" + verification + "</code> ");
                     is_verification_code = true;
                 }
             } else {
